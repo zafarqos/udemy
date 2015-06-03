@@ -1,0 +1,11 @@
+
+class MyRouter(object):
+	'''This is a Router Class that describes the router'''
+	 def __init__(self, routername, model, serialno, ios):
+	 self.routername = routername
+	 self.model = model
+	 self.serialno = serialno
+	 self.ios = ios
+	 def print_router(self, manuf_date):
+
+
